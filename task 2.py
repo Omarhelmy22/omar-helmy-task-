@@ -1,0 +1,13 @@
+x_x = "i hate python "
+listttt = list(x_x)
+listttt.reverse()
+x_x="".join(listttt) 
+x_x= x_x.replace("h","d")
+x_x= x_x.replace("a","g")
+x_x= x_x.replace("t","2")
+x_x = x_x.replace("e","8")
+x_x= x_x.replace("o","3")
+listttt= list(x_x)
+listttt.append("aca")
+b="".join(listttt)
+print(b)

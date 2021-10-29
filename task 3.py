@@ -1,0 +1,5 @@
+x_x = int ("0xFF", 16)
+x_x= str(bin(x_x))
+x_x = x_x.lstrip("0b")
+x_x = x_x.zfill(8)
+print(x_x)
